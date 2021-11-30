@@ -3,14 +3,14 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-#9::Volume_Down
+#f10::Volume_Down
 
-#0::Volume_Up
+#f11::Volume_Up
 
-#8::Volume_Mute
+#f9::Volume_Mute
 
-^!Space::Send       {Media_Play_Pause}
+#f6::Send {Media_Play_Pause}
 
-^!Left::Send        {Media_Prev}
+#f7::Send        {Media_Prev}
 
-^!Right::Send       {Media_Next}
+#f8::Send       {Media_Next}
